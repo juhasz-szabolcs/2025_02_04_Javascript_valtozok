@@ -8,5 +8,5 @@ function dobas_mutat() {
 }
 
 function lotto() {
-    let lotto = Math.ceil
+    let lotto = Math.ceil(Math.random()*6)
 }
