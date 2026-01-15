@@ -1,5 +1,6 @@
+// number
 let e = 2;
-console.log('a=' + e + ' típusa: ' + typeof e);
+console.log('e = ' + e + ' típusa: ' + typeof e);
 const pi = 3.14;
 console.log('pi=' + pi + ' típusa: ' + typeof pi);
 
@@ -16,6 +17,7 @@ let lastname = 'Doe';
 
 // Template literals (Template strings)
 // backtick (`) 
+console.log('Hello ' +  firstname + ' ' + lastname + '!');
 console.log(`Hello, ${firstname} ${lastname}!`);
 
 
@@ -30,13 +32,14 @@ console.log(person);
 console.log(person.name);
 console.log(person.age);
 console.log(person.isStudent);
+// undifefined
 console.log(person.address); // undefined
 
 let xy;
 console.log(xy);    // undefined
 
 // Boolean
-console.log('\nBOOLEAN')
+console.log('BOOLEAN')
 console.log(typeof true);
 console.log(Boolean(0));
 console.log(Boolean(""));

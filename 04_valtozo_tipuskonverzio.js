@@ -5,6 +5,7 @@ console.log("dog" + "house");
 
 "dog" + 4 == "dog4"; // a számot átalakította
 console.log("dog" + 4);
+console.log(typeof ("dog" + 4));
 
 4 + "4" == "44"; // karakterlánccá
 console.log(4 + "4");

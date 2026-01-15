@@ -72,9 +72,19 @@ console.log(gyumolcs instanceof Object); //true
 function myFunction() {
     let valtozo = 5;
     var valtozo2 = 20;
-    return "valtozo"
+    let valtozo3 = 20;
+    // return "valtozo"
+    return valtozo;
 }
 
 console.log(myFunction())
 // console.log(valtozo)
-console.log(valtozo2)
+// console.log(valtozo2)  //hiba, mert a valtozo2 var típusú és a függvény scope-ján kívül nem elérhető
+// console.log(valtozo3)  //hiba, mert a valtozo3 let típusú és a függvény scope-ján kívül nem elérhető
+
+// Feltételes (ternary) operátor
+let b = 3;
+let c = 10;
+let d = 20;
+a = b > 2 ? c : d; // ha b nagyobb mint 2 akkor a=c egyébként a=d
+console.log('a=' + a);
